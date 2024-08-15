@@ -24,6 +24,8 @@ Sequelize: An ORM for Node.js to interact with MySQL.
 Other:
 Git: Version control system for tracking changes in the project.
 GitHub: Hosting the project repository.
+
+
 Database Structure
 The platform uses a MySQL database named telemeds with the following tables:
 
