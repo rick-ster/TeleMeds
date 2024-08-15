@@ -1,0 +1,61 @@
+.mainblock{
+    margin-top: 5rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.mainblock>.subblock{
+    width: 80%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hd{
+    color: #04225b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+
+.table{
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 30px;
+} 
+
+thead{
+    color: White;
+    font-size: 21px;
+    
+    background-color: #04225b;
+}
+
+thead >th{
+    padding: 10px;
+    
+}
+
+.tr:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.tr{
+    justify-content: space-between;
+}
+
+.tr >td{
+    padding: 10px;
+    
+}

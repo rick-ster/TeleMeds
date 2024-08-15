@@ -1,0 +1,61 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.dashboard-appoint-container {
+    margin-top: 1rem;
+    padding: 20px;
+    width: 60%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 16px auto ; /* Added top/bottom margin for better spacing */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+/* Form group spacing */
+.dashboard-appoint-container .form-group {
+    margin-bottom: 15px;
+    box-sizing: border-box; /* Ensures padding/margins are included within width/height */
+}
+
+/* Half-width input alignment */
+.dashboard-appoint-container .form-group.half-width {
+    width: calc(50% - 10px);
+    display: inline-block;
+    vertical-align: top; /* Ensures vertical alignment for inline-block elements */
+}
+
+/* Space between two half-width inputs */
+.dashboard-appoint-container .form-group.half-width + .form-group.half-width {
+    margin-left: 20px;
+}
+
+/* Full-width textarea */
+.dashboard-appoint-container textarea {
+    width: 100%;
+    height: 140px;
+    resize: none;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Submit button styling */
+.dashboard-appoint-container .sub {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Main appointment page layout */
+.dashboard-appointment-page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    height: calc(100vh - 80px); /* Adjust height to fit screen minus total padding */
+    box-sizing: border-box; /* Include padding and borders within the height */
+}

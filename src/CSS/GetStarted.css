@@ -1,0 +1,120 @@
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left{
+    
+    background-size: cover;   
+    color: rgb(43, 43, 168);
+    height:100vh;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+  }
+
+  #Homeleft{
+    background-image: url('../../public/Assets/Images/landing6.jpg');
+  }
+
+  #Signupleft{
+    background-image: url('../../public/Assets/Images/landing.jpg');
+  }
+  #Signinleft{
+    background-image: url('../../public/Assets/Images/landing5.jpg');
+  }
+
+  .h1{
+    font-size:42px;
+    color: black;
+  }
+  
+  .log{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  
+  .right{
+    background-image: linear-gradient(to right bottom, #c3cad9, #b7b3ca, #b19bb5, #ae8399, #a76c77);
+    text-align: center;
+    width: 35%;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.Link{
+  text-decoration: none;
+  color: white;
+}
+  
+  .button{
+    padding: 20px 65px 20px 65px;
+    margin: 15px;
+    font-size: 18px;
+    background-color:#003e89;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .button:hover{
+    background-color: #006a9b;
+    cursor: pointer;
+  }
+  
+  
+  .bottoms{
+    position: absolute;
+    bottom: 3%;
+  
+  }
+  
+  .links{
+    border: none;
+    background:none;
+    cursor: pointer;
+    color: white;
+    margin-right: 15px;
+    
+  }
+  
+  .links:hover{
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .log{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .left{
+      width: 100%;
+      height: 45vh;
+    }
+
+    .right{ 
+      width: 100%;
+      height: 55vh;
+    }
+
+    .bottoms{
+      bottom: 1%;
+      
+      
+    }
+
+    .links{
+      font-size: 10px;
+    }
+   
+  
+  }

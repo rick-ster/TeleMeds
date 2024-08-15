@@ -1,0 +1,64 @@
+.homepage-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    padding: 0 0 0 50px; /* Adjust padding if needed */
+    background-color: #f8f8f8;
+}
+
+.content-section {
+    max-width: 30%;
+}
+
+.content-section h1 {
+    color: #003366;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content-section h2 {
+    color: #003366;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #003366;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #002244;
+}
+
+.image-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%; /* Full screen height */
+}
+
+.image-section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Ensures the image covers the entire section */
+    border-radius: 0 0 0 0; /* No border radius */
+    max-width: 100%; /* Limit the image to full screen width */
+    max-height: 100%; /* Maintain full height */
+    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 30% 100%, 0% 50%); /* Arc-like clipping */
+    
+}

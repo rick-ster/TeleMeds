@@ -1,0 +1,42 @@
+.doctor-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.doctor-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.doctor-name {
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+.doctor-specialty {
+    color: #555;
+}
+
+.doctor-rating {
+    color: #f39c12;
+    margin: 8px 0;
+}
+
+.view-profile-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.view-profile-button:hover {
+    background-color: #0056b3;
+}

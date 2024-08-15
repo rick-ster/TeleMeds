@@ -1,0 +1,91 @@
+.main_body {
+     /* Adjust this value to match the height of your navbar */
+    padding: 0;
+    background-image: linear-gradient(to right bottom, #99b4dc, #8ec7dd, #9bd5d4, #bae0cb, #dee8ca);
+     /* Subtract the height of the navbar from the viewport height */
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0; /* Ensures the navbar stays at the top of the page */
+    left: 0; /* Aligns the navbar to the left edge */
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 1rem;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 25%);
+    z-index: 9999; /* Ensures the navbar overlaps other content */
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    margin-right: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: #fff;
+    background: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+
+.navbar-menu button:hover {
+    transform: scale(1.2);
+}
+
+
+.navbar-user-info {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-user-info span {
+    margin-right: 1rem;
+}
+
+.navbar-user-info button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-user-info button:hover {
+    background-color: #d32f2f;
+}
+
+.navbar .website-name {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    color: #ecf0f1;
+}
+
+main {
+
+    flex: 1;
+    padding: 1rem;
+}
